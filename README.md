@@ -95,9 +95,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-`ImageTools` is a simple set of functions for quickly editing groups of images
+`ImageTools` is a simple set of functions for quickly editing groups of images.
 
-MORE_DESCRIPTION
+To be able to edit groups of thousands of images, this program was built off of some basic functions such as `crop()`, `resize()` and `append()`. These basic functions take simple inputs to make fundamental changes to individual images, as well as to combine pairs of images.
+
+The most useful functions in `ImageTools` are `cropBatch()`, `resizeBatch()`, and other batch functions that iterate through folders of images to rapidly make many edits of various kinds.
+
+By using the different `batch` functions in `ImageTools` sequentially, one can take groups of images with different sizes and dimensions, and make them uniform. Simultaneously, one can overlay or append other images to add logos, captions, branding, and other stylization uniformly.
 
 
 <a href="https://github.com/EvanGottschalk/ImageTools">
