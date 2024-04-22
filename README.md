@@ -1,3 +1,8 @@
+<!--
+*** Do a search and replace for the following:
+*** EvanGottschalk, ImageTools, EvanOnEarth_eth, evan.blockchain@gmail.com, A simple set of functions for quickly editing groups of images
+-->
+
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -18,26 +23,26 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <!--   <a href="https://github.com/EvanGottschalk/TokenTools">
-    <img src="images/logo.png" alt="Logo" width="250" height="130">
+  <!--   <a href="https://github.com/EvanGottschalk/ImageTools">
+    <img src="README_images/logo.png" alt="Logo" width="250" height="130">
   </a> -->
-  <a href="https://github.com/EvanGottschalk/TokenTools">
-    <img src="README_images/banner.png" alt="TokenTools" height="200">
+  <a href="https://github.com/EvanGottschalk/ImageTools">
+    <img src="README_images/banner.png" alt="ImageTools" height="200">
   </a>
 
-  <h3 align="center">TokenTools</h3>
+  <h3 align="center">ImageTools</h3>
 
   <p align="center">
-    A simple command line interface for interacting with tokens on Solana.
+    A simple set of functions for quickly editing groups of images
     <br />
-    <a href="https://github.com/EvanGottschalk/TokenTools"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/EvanGottschalk/ImageTools"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/EvanGottschalk/TokenTools">View Demo</a>
+    <a href="https://github.com/EvanGottschalk/ImageTools">View Demo</a>
     ·
-    <a href="https://github.com/EvanGottschalk/TokenTools/issues">Report Bug</a>
+    <a href="https://github.com/EvanGottschalk/ImageTools/issues">Report Bug</a>
     ·
-    <a href="https://github.com/EvanGottschalk/TokenTools/issues">Request Feature</a>
+    <a href="https://github.com/EvanGottschalk/ImageTools/issues">Request Feature</a>
   </p>
 </p>
 
@@ -90,15 +95,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-`TokenTools` is a simple command line interface for interacting with tokens on Solana.
+`ImageTools` is a simple set of functions for quickly editing groups of images
 
-All tokens on Solana are known as SPL tokens. You can use `TokenTools` to create new tokens, modify tokens, transfer tokens and beyond.
+MORE_DESCRIPTION
 
-<a href="https://github.com/EvanGottschalk/TokenTools">
-  <img src="README_images/screenshot.PNG" alt="TokenTools in action" height="200">
+
+<a href="https://github.com/EvanGottschalk/ImageTools">
+  <img src="README_images/screenshot.png" alt="ImageTools in action" height="200">
 </a>
-
-
 
 
 <br>
@@ -142,7 +146,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-`TokenTools` requires Node version 18.19.0 or later.
+`ImageTools` requires Node version 18.19.0 or later.
 
 
 
@@ -157,7 +161,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone this repository
    ```
-   git clone https://github.com/EvanGottschalk/TokenTools
+   git clone https://github.com/EvanGottschalk/ImageTools
    ```
 2. Initialize a new Node project
    ```
@@ -173,7 +177,7 @@ To get a local copy up and running follow these simple steps.
    ```
 5. Run the program
    ```
-   npx run scripts/TokenTools.js
+   npx run scripts/ImageTools.js
    ```
 
 
@@ -188,13 +192,13 @@ To get a local copy up and running follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-After getting the program running, you can use a test wallet address, or the address from your web wallet. To use your web wallet, first get the private key, and then derive the keypair array using `TokenTools`
+After getting the program running, you can use a test wallet address, or the address from your web wallet. To use your web wallet, first get the private key, and then derive the keypair array using `ImageTools`
 
-Once you have your keypair file, you are ready to go! `TokenTools` can be used to mint NFTs and fungible tokens on Solana's mainnet and devnet.
+Once you have your keypair file, you are ready to go! `ImageTools` can be used to mint NFTs and fungible tokens on Solana's mainnet and devnet.
 
-On devnet, you can use `TokenTools` to request an airdrop and start minting!
+On devnet, you can use `ImageTools` to request an airdrop and start minting!
 
-On mainnet, you will have to first deposit some SOL into your wallet before you can start minting with `TokenTools`.
+On mainnet, you will have to first deposit some SOL into your wallet before you can start minting with `ImageTools`.
 
 
 
@@ -208,13 +212,14 @@ On mainnet, you will have to first deposit some SOL into your wallet before you 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/EvanGottschalk/TokenTools/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/EvanGottschalk/ImageTools/issues) for a list of proposed features (and known issues).
 
 ### Upcoming Features
 
-* Batch transfers
-* NFT tools
-* DEX interactivity
+* feature_1
+* feature_2
+* feature_3
+
 
 
 <br>
@@ -266,7 +271,7 @@ Distributed under the GNU GPL-3 License. See `LICENSE` for more information.
 
 Evan Gottschalk - [@EvanOnEarth_eth](https://twitter.com/EvanOnEarth_eth) - evan.blockchain@gmail.com
 
-Project Link: [https://github.com/EvanGottschalk/TokenTools](https://github.com/EvanGottschalk/TokenTools)
+Project Link: [https://github.com/EvanGottschalk/ImageTools](https://github.com/EvanGottschalk/ImageTools)
 
 
 
@@ -290,15 +295,15 @@ Thinking about contributing to this project? Please do! Your Github username wil
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/EvanGottschalk/TokenTools.svg?style=for-the-badge
-[contributors-url]: https://github.com/EvanGottschalk/TokenTools/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/EvanGottschalk/TokenTools.svg?style=for-the-badge
-[forks-url]: https://github.com/EvanGottschalk/TokenTools/network/members
-[stars-shield]: https://img.shields.io/github/stars/EvanGottschalk/TokenTools.svg?style=for-the-badge
-[stars-url]: https://github.com/EvanGottschalk/TokenTools/stargazers
-[issues-shield]: https://img.shields.io/github/issues/EvanGottschalk/TokenTools.svg?style=for-the-badge
-[issues-url]: https://github.com/EvanGottschalk/TokenTools/issues
-[license-shield]: https://img.shields.io/github/license/EvanGottschalk/TokenTools.svg?style=for-the-badge
-[license-url]: https://github.com/EvanGottschalk/TokenTools/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/EvanGottschalk/ImageTools.svg?style=for-the-badge
+[contributors-url]: https://github.com/EvanGottschalk/ImageTools/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/EvanGottschalk/ImageTools.svg?style=for-the-badge
+[forks-url]: https://github.com/EvanGottschalk/ImageTools/network/members
+[stars-shield]: https://img.shields.io/github/stars/EvanGottschalk/ImageTools.svg?style=for-the-badge
+[stars-url]: https://github.com/EvanGottschalk/ImageTools/stargazers
+[issues-shield]: https://img.shields.io/github/issues/EvanGottschalk/ImageTools.svg?style=for-the-badge
+[issues-url]: https://github.com/EvanGottschalk/ImageTools/issues
+[license-shield]: https://img.shields.io/github/license/EvanGottschalk/ImageTools.svg?style=for-the-badge
+[license-url]: https://github.com/EvanGottschalk/ImageTools/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/EvanGottschalk
