@@ -101,7 +101,7 @@ MORE_DESCRIPTION
 
 
 <a href="https://github.com/EvanGottschalk/ImageTools">
-  <img src="README_images/screenshot.png" alt="ImageTools in action" height="200">
+  <img src="README_images/screenshot.PNG" alt="ImageTools in action" height="200">
 </a>
 
 
