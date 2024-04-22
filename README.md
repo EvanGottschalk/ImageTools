@@ -22,7 +22,7 @@
     <img src="images/logo.png" alt="Logo" width="250" height="130">
   </a> -->
   <a href="https://github.com/EvanGottschalk/TokenTools">
-    <img src="README_images/banner1.png" alt="TokenTools" height="200">
+    <img src="README_images/banner.png" alt="TokenTools" height="200">
   </a>
 
   <h3 align="center">TokenTools</h3>
