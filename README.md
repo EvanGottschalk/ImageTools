@@ -118,8 +118,8 @@ By using the different `batch` functions in `ImageTools` sequentially, one can t
 
 ### Built With
 
-* [MetaBoss](https://metaboss.rs/) - this amazing library provides functions for creating and interacting with SPL tokens
-* [@solana/web3.js](https://solana-labs.github.io/solana-web3.js/) - this library provides fundamental tools for interacting with the Solana blockchain
+* [PIL (Pillow / Python Image Library)](https://pillow.readthedocs.io/en/stable/) - this library provides functions for creating and editing images with Python
+* [MoviePy](https://pypi.org/project/moviepy/) - this library provides functions for opening and editing videos with Python
 
 
 
@@ -150,7 +150,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-`ImageTools` requires Node version 18.19.0 or later.
+`ImageTools` requires Python version 3.10.0 or later.
 
 
 
@@ -167,22 +167,15 @@ To get a local copy up and running follow these simple steps.
    ```
    git clone https://github.com/EvanGottschalk/ImageTools
    ```
-2. Initialize a new Node project
+2. Install PIL
    ```
-   yarn init
+   pip install Pillow
    ```
-3. Install necessary dependencies
+3. Install MoviePy
    ```
-   yarn install
+   pip install moviepy
    ```
-4. Install Metaboss
-   ```
-   yarn install metaboss
-   ```
-5. Run the program
-   ```
-   npx run scripts/ImageTools.js
-   ```
+4. Run the program
 
 
 
@@ -196,13 +189,9 @@ To get a local copy up and running follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-After getting the program running, you can use a test wallet address, or the address from your web wallet. To use your web wallet, first get the private key, and then derive the keypair array using `ImageTools`
+To get started, simply add images or image folders to the project folder. Then, run individual `batch` functions through the command line, or edit the end of the file to automatically run a series of functions.
 
-Once you have your keypair file, you are ready to go! `ImageTools` can be used to mint NFTs and fungible tokens on Solana's mainnet and devnet.
-
-On devnet, you can use `ImageTools` to request an airdrop and start minting!
-
-On mainnet, you will have to first deposit some SOL into your wallet before you can start minting with `ImageTools`.
+You can see example setups for folder names, file names and function parameters at the bottom of the `ImageTools.py` file.
 
 
 
@@ -220,9 +209,9 @@ See the [open issues](https://github.com/EvanGottschalk/ImageTools/issues) for a
 
 ### Upcoming Features
 
-* feature_1
-* feature_2
-* feature_3
+* More video editing options
+* More image management library options
+* AI-generated image capabilities
 
 
 
